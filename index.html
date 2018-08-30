@@ -33,77 +33,77 @@ Your browser does not support the video tag.
                        <TD style="background-color: #cccccc;"  class="courier">  
 			
 			---------- dialogue.log_on_14_08_18_at_15_50_07 ---------- </br>
-			--<>-- turn  : 1  </br>
-			------ in_utt : "hello how are you?"    INPUT_UTT == 1 </br>
-			x----- in_slu : ('Greeting', 1.0, {}) </br>
-			x----- in_dop : 1  accumulative DoP : 1  </br>
-			-----> op_utt : Hello, I am fine, thanks, how can I help you?    </br>
-			--<>-- turn  : 2    </br>
-			------ in_utt : "could you please show me the education"    INPUT_UTT == 2    </br>
-			x----- in_slu : ('TakeToPlace', 1.0, {'slot_value': ['room', 'education']})    </br>
-			x----- in_dop : 1  accumulative DoP : 2     </br>
-			-----> op_utt : Please follow me, I can show you the education    </br>
-			--<>-- turn  : 3    </br>
-			------ in_utt : could you please show me the education   --- NOT_INPUT    </br>
-			x----- in_slu : ('FinishedOne', 1.0, {'slot_value': ['room', 'education']})    </br>
-			x----- in_dop : 0  accumulative DoP : 2     </br>
-			-----> op_utt : We arrived at education department, here you can find the education related stuff. Would you like to visit next department?    </br>
-			--<>-- turn  : 4    </br>
-			------ in_utt : "yes I would like to visit"    INPUT_UTT == 3    </br>
-			x----- in_slu : ('Accept', 0.5653610591806222, {})    </br>
-			x----- in_dop : 1  accumulative DoP : 3    </br>
-			-----> op_utt : Okay lets go to the next department.    </br>
-			--<>-- turn  : 5    </br>
-			------ in_utt : yes I would like to visit  --- NOT_INPUT    </br>
-			x----- in_slu : ('TakeToPlace', 1.0, {'slot_value': ['room', 'tourism']})    </br>
-			x----- in_dop : 0  accumulative DoP : 3    </br>
-			-----> op_utt : Please follow me, I can take you to the  tourism    </br>
-			--<>-- turn  : 6    </br>
-			------ in_utt : yes I would like to visit  --- NOT_INPUT    </br>
-			x----- in_slu : ('FinishedOne', 1.0, {'slot_value': ['room', 'tourism']})    </br>
-			x----- in_dop : 0  accumulative DoP : 3    </br>
-			-----> op_utt : We arrived at tourism department, here you can find the tourism related stuff. Would you like to visit next department?    </br>
-			--<>-- turn  : 7    </br>
-			------ in_utt : "no thank you"    INPUT_UTT == 4    </br>
-			x----- in_slu : ('Thanking', 1.0, {})    </br>
-			x----- in_dop : 0  accumulative DoP : 3     </br>
-			-----> op_utt : You are welcome, thanks for bearing with me.    </br>
+			-<>- turn  : 1  </br>
+			---- in_utt : "hello how are you?" -->INPUT_UTT == 1 </br>
+			x--- in_slu : ('Greeting', 1.0, {}) </br>
+			x--- in_dop : 1  accumulative DoP : 1  </br>
+			---> op_utt : Hello, I am fine, thanks, how can I help you?    </br>
+			-<>- turn  : 2    </br>
+			---- in_utt : "could you please show me the education" -->INPUT_UTT == 2    </br>
+			x--- in_slu : ('TakeToPlace', 1.0, {'slot_value': ['room', 'education']})    </br>
+			x--- in_dop : 1  accumulative DoP : 2     </br>
+			---> op_utt : Please follow me, I can show you the education    </br>
+			-<>- turn  : 3    </br>
+			---- in_utt : could you please show me the education   ---NOT_INPUT    </br>
+			x--- in_slu : ('FinishedOne', 1.0, {'slot_value': ['room', 'education']})    </br>
+			x--- in_dop : 0  accumulative DoP : 2     </br>
+			---> op_utt : We arrived at education department, here you can find the education related stuff. Would you like to visit next department?    </br>
+			-<>- turn  : 4    </br>
+			---- in_utt : "yes I would like to visit" -->INPUT_UTT == 3    </br>
+			x--- in_slu : ('Accept', 0.5653610591806222, {})    </br>
+			x--- in_dop : 1  accumulative DoP : 3    </br>
+			---> op_utt : Okay lets go to the next department.    </br>
+			-<>- turn  : 5    </br>
+			---- in_utt : yes I would like to visit  ---NOT_INPUT    </br>
+			x--- in_slu : ('TakeToPlace', 1.0, {'slot_value': ['room', 'tourism']})    </br>
+			x--- in_dop : 0  accumulative DoP : 3    </br>
+			---> op_utt : Please follow me, I can take you to the  tourism    </br>
+			-<>- turn  : 6    </br>
+			---- in_utt : yes I would like to visit  ---NOT_INPUT    </br>
+			x--- in_slu : ('FinishedOne', 1.0, {'slot_value': ['room', 'tourism']})    </br>
+			x--- in_dop : 0  accumulative DoP : 3    </br>
+			---> op_utt : We arrived at tourism department, here you can find the tourism related stuff. Would you like to visit next department?    </br>
+			-<>- turn  : 7    </br>
+			---- in_utt : "no thank you" -->INPUT_UTT == 4    </br>
+			x--- in_slu : ('Thanking', 1.0, {})    </br>
+			x--- in_dop : 0  accumulative DoP : 3     </br>
+			---> op_utt : You are welcome, thanks for bearing with me.    </br>
 			
 			</TD>
                        <TD style="background-color: #e6e6e6;" class="courier">  
 			---------- dialogue.log_on_14_08_18_at_16_24_24 ---------- </br>
 			-<>- turn  : 1 </br>
-			---- in_utt : "hello"     INPUT_UTT == 1</br>
+			---- in_utt : "hello" -->INPUT_UTT == 1</br>
 			x--- in_slu : ('Greeting', 1.0, {}) </br>
 			x--- in_dop : 0  accumulative DoP : 0  </br>
 			---> op_utt : Hello, how can I help you? </br>
 			-<>- turn  : 2 </br>
-			---- in_utt : "show me education department"    INPUT_UTT == 2 </br>
+			---- in_utt : "show me education department" -->INPUT_UTT == 2 </br>
 			x--- in_slu : ('TakeToPlace', 1.0, {'slot_value': ['room', 'education']}) </br>
 			x--- in_dop : -1  accumulative DoP : -1  </br>
 			---> op_utt : Please follow me. </br>
 			-<>- turn  : 3 </br>
-			---- in_utt : show me education department  --- NOT_INPUT </br>
+			---- in_utt : show me education department  ---NOT_INPUT </br>
 			x--- in_slu : ('FinishedOne', 1.0, {'slot_value': ['room', 'education']}) </br>
 			x--- in_dop : 0  accumulative DoP : -1  </br>
 			---> op_utt : Here is the education department, here you can find the stuff related to education. Do you wish to visit next department? </br>
 			-<>- turn  : 4 </br>
-			---- in_utt : "show me the tourism"    INPUT_UTT == 3 </br>
+			---- in_utt : "show me the tourism" -->INPUT_UTT == 3 </br>
 			x--- in_slu : ('TakeToPlace', 1.0, {'slot_value': ['room', 'tourism']}) </br>
 			x--- in_dop : -1  accumulative DoP : -2  </br>
 			---> op_utt : Please follow me. </br>
 			-<>- turn  : 5 </br>
-			---- in_utt : show me the tourism  --- NOT_INPUT </br>
+			---- in_utt : show me the tourism  ---NOT_INPUT </br>
 			x--- in_slu : ('FinishedOne', 1.0, {'slot_value': ['room', 'tourism']}) </br>
 			x--- in_dop : 0  accumulative DoP : -2  </br>
 			---> op_utt : We arrived at tourism department, here you can find the tourism related stuff. Would you like to visit next department? </br>
 			-<>- turn  : 6 </br>
-			---- in_utt : "no"     INPUT_UTT == 4</br>
+			---- in_utt : "no" -->INPUT_UTT == 4</br>
 			x--- in_slu : ('Reject', 1.0, {}) </br>
 			x--- in_dop : -1  accumulative DoP : -3  </br>
 			---> op_utt : Okay.  </br>
 			-<>- turn  : 7 </br>
-			---- in_utt : "bye"    INPUT_UTT == 5 </br>
+			---- in_utt : "bye" -->INPUT_UTT == 5 </br>
 			x--- in_slu : ('ConvClosing', 1.0, {}) </br>
 			x--- in_dop : 0  accumulative DoP : -3  </br>
 			---> op_utt : Bye bye, have a nice day. </br>
